@@ -9,7 +9,7 @@ export default function Homepage() {
     getNews().then(data => setArticles(data.articles));
   }, []);
 
-  const list = articles.map(article => <ListArticle id={article.publishedAt} article={article} />)
+  const list = articles.map(article => <ListArticle key={article.publishedAt} article={article} />)
 
   return (
     <div>
