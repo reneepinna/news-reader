@@ -1,8 +1,30 @@
 .listArticle {
-  max-width: 20rem;
-  padding: 2rem;
+  max-width: 15rem;
+  cursor: pointer;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  position: relative;
 }
 
 .listArticle_img {
-  max-width: 20rem;
+  max-width: 15rem;
+  height: 10rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+.icon {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.listArticle_date {
+  margin-bottom: 0 ;
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
 }
