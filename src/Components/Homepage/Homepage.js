@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import getNews from '../../apiCalls';
 import ListArticle from '../ListArticle/ListArticle';
+import './Homepage.scss';
 
 export default function Homepage() {
   const [articles, setArticles] = useState([]);
@@ -9,15 +10,19 @@ export default function Homepage() {
     getNews().then(data => setArticles(data.articles));
   }, []);
 
-  const list = articles.map(article => <ListArticle key={article.publishedAt} article={article} />)
+  const list = articles.map(article => (
+    <ListArticle key={article.publishedAt} article={article} />
+  ));
 
   return (
-    <div>
-      <header>
-        <p>News Reader</p>
-        <p>Search Comp</p>
+    <div className='homepage'>
+      <header className='header'>
+        <h1>News Reader</h1>
       </header>
-      <main>{list}</main>
+      <main>
+        <h2 className='h2'>Latest News</h2>
+        <div className='latest-news'>{list}</div>
+      </main>
     </div>
   );
 }
