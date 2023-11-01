@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import getNews from '../../apiCalls';
 import ListArticle from '../ListArticle/ListArticle';
 import './Homepage.scss';
+import Header from '../Header/Header';
 
 export default function Homepage() {
   const [articles, setArticles] = useState([]);
@@ -16,9 +17,6 @@ export default function Homepage() {
 
   return (
     <div className='homepage'>
-      <header className='header'>
-        <h1>News Reader</h1>
-      </header>
       <main>
         <h2 className='h2'>Latest News</h2>
         <div className='latest-news'>{list}</div>
