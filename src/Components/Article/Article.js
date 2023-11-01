@@ -20,6 +20,7 @@ export default function Article() {
   } = article;
   const navigate = useNavigate()
   const date = dayjs(publishedAt).format('dddd, MMMM D, YYYY h:mm A	');
+  const formattedAuthor = author ? author.toLowerCase() : 'unknown';
 
   return (
     <main className='article-page'>
@@ -29,9 +30,9 @@ export default function Article() {
       </div>
         <h2 className='title'>{title.split(' -')[0]}</h2>
         <p>{description}</p>
-        <p className='author'>By {author.toLowerCase()}</p>
+        <p className='author'>By {formattedAuthor}</p>
         <p className='date'>{date}</p>
-        <hr class='separator' />
+        <hr className='separator' />
         <img className='article_img' src={urlToImage} />
         <p className='source'>{source.name}</p>
         <p>{content}</p>
