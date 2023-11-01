@@ -1,11 +1,19 @@
-
-//b8fc9fa1e6694440bd9372d8f6ada677
+import { Route, Routes } from 'react-router-dom';
+import Homepage from '../Homepage/Homepage';
+import Header from '../Header/Header';
+import Article from '../Article/Article';
+import SearchPage from '../SearchPage/SearchPage';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/article' element={<Article />} />
+        <Route path='/search' element={<SearchPage />} />
+      </Routes>
+    </>
   );
 }
 

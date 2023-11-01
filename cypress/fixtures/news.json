@@ -1,0 +1,108 @@
+{
+  "articles": [
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Julia Mio Inuma, Michelle Ye Hee Lee",
+      "title": "Japanese gunman fires shots at hospital, seizes hostages in post office - The Washington Post",
+      "description": "Shots were fired at a hospital and two people wounded before the suspect fled on a motorcycle. The man has since been holed up in a post office for hours.",
+      "url": "https://www.washingtonpost.com/world/2023/10/31/japan-gunman-hospital-shooting-hostages/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://d1i4t8bqe7zgj6.cloudfront.net/10-31-2023/t_a23bdb6c21604526868e5f4db377b9be_name_HNLSNXBE4FWTG32KZPCJQIQ4NM.jpg&w=1440",
+      "publishedAt": "2023-10-31T12:25:08Z",
+      "content": "Comment on this story\r\nComment\r\nAdd to your saved stories\r\nSave\r\nTOKYO A suspected gunman is holed up in a post office with an unconfirmed number of hostages on Tuesday in the greater Tokyo area, aft… [+2752 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Athletic"
+      },
+      "author": "Ken Rosenthal",
+      "title": "Rosenthal: Injuries to Max Scherzer, Adolis García leave Rangers with hard decisions - The Athletic",
+      "description": "“I told the trainer to quit texting me, I’m tired of you tonight,” Rangers GM Chris Young said, exasperated by the turn of events.",
+      "url": "https://theathletic.com/5016425/2023/10/31/texas-rangers-adolis-garcia-max-scherzer-injuries/",
+      "urlToImage": "https://cdn.theathletic.com/app/uploads/2023/10/31070414/GettyImages-1765958820-1-scaled-e1698750282889.jpg",
+      "publishedAt": "2023-10-31T11:35:51Z",
+      "content": "PHOENIX Right-hander Max Scherzer walked gingerly through the Texas Rangers clubhouse, looking decidedly uncomfortable, flashing an occasional grimace. Maybe his back spasm will miraculously clear up… [+7667 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "CHRISTOPHER RUGABER",
+      "title": "Surge in interest rates and a cloudier economic picture to keep Federal Reserve on sidelines - The Associated Press",
+      "description": "The Federal Reserve is poised to leave its key interest rate unchanged at a time when the Fed faces an economy that has proved resilient but is nevertheless under pressure from surging interest rates, overseas turmoil and anxious investors. U.S. economic grow…",
+      "url": "https://apnews.com/article/inflation-interest-rates-prices-economy-federal-reserve-a231478a01c64c2b2027ac75cb0c979a",
+      "urlToImage": "https://dims.apnews.com/dims4/default/ee76687/2147483647/strip/true/crop/3485x1960+0+181/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F16%2F94%2Fe79f718bb5f260d180345dc48e7f%2Fbe8f84a7e364416f8437bd1ace887349",
+      "publishedAt": "2023-10-31T11:00:00Z",
+      "content": "WASHINGTON (AP) The Federal Reserve is poised to leave its key interest rate unchanged Wednesday at a time when the Fed faces an economy that has proved resilient but is nevertheless under pressure f… [+4715 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Giri Viswanathan",
+      "title": "For some cardiac patients with stents, long-term aspirin treatments might be on the way out - CNN",
+      "description": "For some high-risk cardiovascular patients with stents, the often-recommended practice of prolonged taking of aspirin might be ineffective, and in some cases, even harmful, a new study found.",
+      "url": "https://www.cnn.com/2023/10/31/health/aspirin-stent-treatment-study/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/231026084358-aspirin-stock-restricted.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-10-31T10:41:00Z",
+      "content": "For some high-risk cardiovascular patients with stents, the often-recommended practice of prolonged taking of aspirin might be ineffective, and in some cases,even harmful, a new study found.\r\nThe rep… [+5681 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Tim Hardwick",
+      "title": "Apple M3 Pro Chip Has 25% Less Memory Bandwidth Than M1/M2 Pro - MacRumors",
+      "description": "Apple's latest M3 Pro chip in the new 14-inch and 16-inch MacBook Pro has 25% less memory bandwidth than the M1 Pro and M2 Pro chips used in...",
+      "url": "https://www.macrumors.com/2023/10/31/apple-m3-pro-less-memory-bandwidth/",
+      "urlToImage": "https://images.macrumors.com/t/F5ulL21DHhkGBuYn4oY_aFhUYR8=/5104x/article-new/2023/10/m3-pro-chip.jpg",
+      "publishedAt": "2023-10-31T10:11:12Z",
+      "content": "Apple's latest M3 Pro chip in the new 14-inch and 16-inch MacBook Pro has 25% less memory bandwidth than the M1 Pro and M2 Pro chips used in equivalent models from the two previous generations.\r\nBase… [+2926 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Nidal Al-Mughrabi, Emily Rose",
+      "title": "Israel attacks Hamas gunmen inside Gaza tunnels - Reuters",
+      "description": "Israel said its forces attacked Hamas gunmen inside the Islamists' vast tunnel network beneath Gaza, after Prime Minister Benjamin Netanyahu dismissed calls for a halt to fighting to ease humanitarian crisis.",
+      "url": "https://www.reuters.com/world/middle-east/hamas-says-it-fires-israeli-troops-pressing-gaza-ground-assault-2023-10-31/",
+      "urlToImage": "https://www.reuters.com/resizer/x-KQVg9wSj4WEjL25FSfBNWwAjs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/E7HE7BLDXNNS5JE3XDU6I3LK4A.jpg",
+      "publishedAt": "2023-10-31T10:09:36Z",
+      "content": "GAZA/JERUSALEM, Oct 31 (Reuters) - Israel said its forces attacked Hamas gunmen inside the Islamists' vast tunnel network beneath Gaza, after Prime Minister Benjamin Netanyahu dismissed calls for a h… [+6650 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Michael Wayland",
+      "title": "Winners and losers of the UAW talks with GM, Ford and Stellantis - CNBC",
+      "description": "Fain and the union are clear winners at the end of bargaining, but others like Tesla and President Joe Biden may also come out ahead.",
+      "url": "https://www.cnbc.com/2023/10/31/uaw-talks-with-gm-ford-stellantis-winners-losers.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107306844-16957484112023-09-26t170752z_1493804321_rc2hg3a9mczz_rtrmadp_0_autos-labor-uaw-biden.jpeg?v=1695754426&w=1920&h=1080",
+      "publishedAt": "2023-10-31T10:00:01Z",
+      "content": "President Joe Biden speaks next to Shawn Fain, president of the United Auto Workers, as he joins striking members of the union on the picket line outside GM's Willow Run Distribution Center in Bellvi… [+7438 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Duncan Miriri",
+      "title": "Britain's King Charles visits Kenya with colonialism's scars in focus - Reuters",
+      "description": "Britain's tarnished colonial past took centre stage in Kenya on Tuesday as King Charles began a four-day state visit, poised to acknowledge \"painful aspects\" of the countries' long shared history as local leaders press demands for reparations.",
+      "url": "https://www.reuters.com/world/africa/britains-king-charles-visits-kenya-with-colonialisms-scars-focus-2023-10-31/",
+      "urlToImage": "https://www.reuters.com/resizer/EXjGg8hb4VO1AX0k4_VzOa36hSI=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/EPYKTYBRWZIDTH3UU3HDICKVHY.jpg",
+      "publishedAt": "2023-10-31T09:50:00Z",
+      "content": "NAIROBI, Oct 31 (Reuters) - Britain's tarnished colonial past took centre stage in Kenya on Tuesday as King Charles began a four-day state visit, poised to acknowledge \"painful aspects\" of the countr… [+2769 chars]"
+    }
+  ]
+}

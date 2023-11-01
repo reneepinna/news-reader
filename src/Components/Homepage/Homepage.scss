@@ -1,0 +1,16 @@
+.latest-news {
+  padding: 0 3rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+
+}
+
+.homepage {
+  background-color: whitesmoke;
+}
+
+.h2 {
+  padding: 1rem 3rem;
+  margin: 0;
+}

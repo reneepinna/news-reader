@@ -1,0 +1,53 @@
+.article_img {
+  max-width: 25rem;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 5px;
+  float: right;
+  margin: 1rem;
+  
+}
+
+.article-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 2.5rem;
+}
+
+.article-body {
+  position: relative;
+  padding: 3rem;
+  background-color: white;
+  max-width: 40rem
+}
+
+.author {
+  font-weight: 700;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.date {
+  margin: 0;
+
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.separator {
+  height: 2px;
+  margin: 1rem 0 2rem 0;
+  background-color: grey;
+  border: none;
+}
+
+.icon-left {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+}
