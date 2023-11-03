@@ -3,6 +3,7 @@ import { getNews } from '../../apiCalls';
 import ListArticle from '../ListArticle/ListArticle';
 import './Homepage.scss';
 import { Link } from 'react-router-dom';
+import ListDisplay from '../ListDisplay/ListDisplay';
 
 export default function Homepage() {
   const [articles, setArticles] = useState([]);
@@ -13,15 +14,11 @@ export default function Homepage() {
     }
   }, []);
 
-  const list = articles.map(article => (
-    <ListArticle key={article.publishedAt} article={article} />
-  ));
-
   return (
-    <div className='homepage'>
+    <div className='page'>
       <main>
         <h2 className='h2'>Latest News</h2>
-        <div className='latest-news'>{list}</div>
+        <ListDisplay articles={articles}/>
       </main>
     </div>
   );
