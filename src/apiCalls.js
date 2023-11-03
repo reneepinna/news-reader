@@ -5,8 +5,7 @@ export function getNews() {
 }
 
 export function getSearch(searchQuery) {
-  //is this how the query works? ? or & Does order matter
   return fetch(
-    `https:newsapi.org/v2/everything?q=${searchQuery}?language=us&apiKey=b8fc9fa1e6694440bd9372d8f6ada677`,
+    `https:newsapi.org/v2/everything?q=${searchQuery}&language=en&pageSize=20&apiKey=b8fc9fa1e6694440bd9372d8f6ada677`,
   ).then(resp => resp.json());
 }
