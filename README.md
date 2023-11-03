@@ -18,6 +18,7 @@ npm install
 npm start
 ```
 ## 📸 Screenshots
+<img width="1426" alt="Screen Shot 2023-11-03 at 1 39 00 PM" src="https://github.com/reneepinna/news-reader/assets/130389530/9cec78a2-2ed0-418a-bf63-864f4bbd5a23">
 
 ## 💻 Technologies Used
 ![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
