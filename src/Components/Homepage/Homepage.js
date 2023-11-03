@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getNews } from '../../apiCalls';
-import ListArticle from '../ListArticle/ListArticle';
 import './Homepage.scss';
-import { Link } from 'react-router-dom';
 import ListDisplay from '../ListDisplay/ListDisplay';
 
 export default function Homepage() {
@@ -10,7 +8,7 @@ export default function Homepage() {
 
   useEffect(() => {
     if (!articles.length) {
-      getNews().then(data => setArticles(data.articles));
+      getNews().then(data => setArticles(data));
     }
   }, []);
 

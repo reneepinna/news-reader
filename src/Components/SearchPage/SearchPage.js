@@ -9,7 +9,7 @@ export default function SearchPage() {
 
   useEffect(() => {
     if (query) {
-      getSearch(query).then(data => setArticles(data.articles));
+      getSearch(query).then(data => setArticles(data));
     } else if (query === '') {
       setArticles([]);
     }
