@@ -17,8 +17,10 @@ export default function SearchPage() {
 
   return (
     <div className='page'>
-      <h2 className='h2'>Results for {query}</h2>
-      <ListDisplay articles={articles} />;
+      <main>
+        <h2 className='h2'>Results for {query}</h2>
+        <ListDisplay articles={articles} />;
+      </main>
     </div>
   );
 }

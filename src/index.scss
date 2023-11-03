@@ -4,5 +4,29 @@ body {
   margin: 0;
 }
 
-$background-color: white;
-$accent-color: 	#B20710;
+@media screen and (max-width: 660px) {
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form {
+    margin: 0 1rem 1rem;
+  }
+
+  .article-body {
+    width: 90vw;
+
+  }
+
+  .page {
+    display: flex;
+    justify-content: center;
+  }
+
+}
